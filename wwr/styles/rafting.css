@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+    --primary-color: #3A405A;
+    --secondary-color: #99B2DD;
+    --accent1-color: #E9AFA3;
+    --accent2-color: #685044;
+
+    --heading-font: "Comic Neue", cursive;
+    --paragraph-font: "Comic Neue", cursive;
+
+    --nav-background-color: #F9DEC9;
+    --nav-link-color: #3A405A;
+    --nav-hover-link-color: #3A405A;
+    --nav-hover-background-color: #E9AFA3;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px 60px 20px 60px;
+}
+
+header {
+    padding: 20px 60px 20px 60px;
+    background-color: var(--accent1-color);
+}
+
+main {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 20px 60px 20px 60px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 60px 20px 60px;
+}
+
+nav {
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    top: 80px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+article {
+    position: absolute;
+    top: 240px;
+    background-color: rgba(0, 224, 249, 0.4);
+    padding: 15px;
+    width: 600px;
+    left: 35px;
+}
+
+article img { 
+    max-width: 100px;
+    height: auto;
+    float: right;
+}
+
+article p {
+    color: var(--nav-background-color);
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+nav a img {
+    width: 80px;
+    height: auto;
+}
+
+section img {
+    padding-bottom: 20px;
+}
