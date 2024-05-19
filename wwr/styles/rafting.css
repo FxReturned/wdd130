@@ -80,8 +80,8 @@ article {
     top: 240px;
     background-color: rgba(0, 224, 249, 0.4);
     padding: 15px;
-    width: 600px;
-    left: 35px;
+    width: 85%;
+    margin-left: 6%;
 }
 
 article img { 
