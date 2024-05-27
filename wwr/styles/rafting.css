@@ -23,35 +23,58 @@ body {
 
 header {
     padding: 20px 60px 20px 60px;
-    background-color: var(--accent1-color);
+    background-color: var( --primary-color);
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
 }
 
 main {
     background-color: var(--secondary-color);
-    color: var(--primary-color);
-    padding: 20px 60px 20px 60px;
+    color: black;
+    padding: 20px 25px 20px 25px;
 }
 
 footer {
     background-color: var(--primary-color);
     color: white;
     padding: 20px 60px 20px 60px;
-}
-
-nav {
-    font-size: 1.2rem;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
 }
 
-nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
+
+.sociallinks {
+    display: flex;
+    gap: 10px;
 }
 
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+.sociallinks a {
+    margin-left: 10px;
+}
+
+.sociallinks img {
+    width: 40px;
+}
+
+.navigation {
+    display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color:  white;
+	padding: 1rem;
+	text-decoration: none;
 }
 
 .hero {
@@ -75,13 +98,39 @@ h1 {
     padding-bottom: 10px;
 }
 
+h2 {
+    text-align: center;
+}
+
+.history {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+
+.history img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products {
+	display: flex;
+}
+
+.products img {
+    width:20%;
+    float:left; /* display: inline-block; */
+    min-width:100px; /* equal to the width of the image */
+    text-align:center;
+}
+
 article {
     position: absolute;
     top: 240px;
-    background-color: rgba(0, 224, 249, 0.4);
+    background-color:rgba(0, 0, 0, 0.4);
     padding: 1rem;
     width: 46rem;
-    margin: 2rem;
+    margin: 4rem;
 }
 
 article img { 
@@ -96,6 +145,7 @@ article p {
 
 .logo {
     max-width: 100px;
+    margin: 0 0.25rem 0 1rem;
     height: auto;
 }
 
