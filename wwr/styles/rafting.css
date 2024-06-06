@@ -124,6 +124,18 @@ h2 {
     text-align:center;
 }
 
+.team {
+	display: flex;
+}
+
+.team img {
+    width:33%;
+    float:left; /* display: inline-block; */
+    min-width:220px; /* equal to the width of the image */
+    text-align:center;
+    height: 180px;
+}
+
 article {
     position: absolute;
     top: 240px;
@@ -156,4 +168,59 @@ nav a img {
 
 section img {
     padding-bottom: 20px;
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    margin-top: 48px;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+input, select, textarea, radio {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.inlinequiz {
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
 }
