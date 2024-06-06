@@ -37,6 +37,11 @@ main {
     padding: 20px 25px 20px 25px;
 }
 
+main a {
+    color: white;
+    text-decoration: none;
+}
+
 footer {
     background-color: var(--primary-color);
     color: white;
