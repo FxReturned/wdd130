@@ -47,6 +47,10 @@ footer {
     height: 100px;
 }
 
+footer a {
+    color: white;
+}
+
 
 .sociallinks {
     display: flex;
