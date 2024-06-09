@@ -115,6 +115,11 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
+
 .history {
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
@@ -124,6 +129,7 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 220px;
 }
 
 .products {
@@ -236,4 +242,85 @@ button {
 
 button:hover {
     background-color: darkgreen;
+}
+
+.cta-button {
+    position: relative;
+    display: grid;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    background: var(--nav-hover-link-color);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.trip-table {
+    width: 80%;
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.trip-table th, .trip-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.trip-table th {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+
+.trip-table .cta-button {
+    padding: 8px 16px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.div-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.index img {
+    width: 100%;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"] {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-form h2 {
+    padding-bottom: 0;
+    margin-block-end: 0px;
+}
+
+.signup-form form {
+    margin-top: 20px;
 }
